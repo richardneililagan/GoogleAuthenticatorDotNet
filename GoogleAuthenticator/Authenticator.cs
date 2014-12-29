@@ -1,4 +1,19 @@
-﻿using System;
+﻿/**
+ *   GoogleAuthenticator class library
+ *   -----------------------------------------------------------------------
+ *   
+ *   :: A library for generating and authenticating 2FA codes
+ *      according to RFC6238 and Google Authenticator app implementation.
+ *      http://tools.ietf.org/html/rfc6238
+ *      https://github.com/google/google-authenticator
+ *      
+ *   @author Richard Neil Ilagan [me@richardneililagan.com]
+ *   
+ *   This software is protected by the GPL v3 license
+ *   as specified in [LICENSE.txt].
+ */
+
+using System;
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("GoogleAuthenticator.Tests")]
